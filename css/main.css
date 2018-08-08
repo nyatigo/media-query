@@ -1,41 +1,19 @@
-body {
-	background-image: url("../img/mus.jpg");
-	background-repeat: no-repeat;
-	background-size:cover;
-	background-position:center left;
-	height:680px;
-	text-align:center;
+
+
+img{
+	margin-right:230px;
+	width:;
+	display: none;
 }
 
-h1{
-	color:white;
-	font-family: 'Pacifico', cursive;
+@media only screen and (max-width:600px){
+	.snake , .hellboy {
+		display: initial;
+		width:100%;
+
+	}
+	body {
+		background-color: tomato;
+	}
 }
 
-
-h3 {
-	font-family:;
-	text-decoration: underline;
-}
-
-p{
-	color:white;
-	font-family: 'Pacifico', cursive;
-}
-
-h5 {
-	
-font-family: 'Pacifico', cursive;
-color:white;
-
-}
-
-#btn:hover {
-  background-color:black;
-  color:green;
-}
-
-
-#img{
-	width:200px;
-}
